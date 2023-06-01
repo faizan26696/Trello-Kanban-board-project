@@ -1,0 +1,66 @@
+.homeDiv{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    background-color: white;
+}
+.discription__wrapper{
+    background-color: #f1f2f4;
+    position: relative;
+    padding: 2rem;
+    width: 50rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.cancelBtn{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.cancelBtn:hover{
+    background-color: #d8d7d7;
+}
+.titleInput{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 95%;
+
+}
+.titleInput svg{
+    font-size : 1.5rem;
+    color : rgb(103, 102, 102);
+}
+.titleInput h2{
+    font-size: 20px;
+    color : rgb(77, 77, 77);
+}
+.ml_5 p{
+    margin-left: 2.7rem;
+    margin-top: 0.2rem;
+    color: #172B4D;
+    font-size: 14px;
+}
+.ml_5 p u{
+    cursor: pointer;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.leftDiv{
+    width: 70%;
+}

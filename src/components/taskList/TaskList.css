@@ -1,0 +1,124 @@
+.singleList__container{
+    background-color: rgb(240, 239, 239);
+    width: 15rem;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+}
+.title__section{
+    display: flex;
+    justify-content: space-between;
+    height: 1.8rem;
+}
+.title__section input{
+    font-size: 1rem;
+}
+.title__section input, .SingleCardItem__list input{
+    width: 80%;
+    padding: 2px 5px;
+    background-color: rgb(240, 239, 239);
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.SingleCardItem__list input{
+    width: 95%;
+    background-color: white;
+}
+.title__section .input__border{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.SingleCardItem__list .input__border{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.title__section svg{
+    cursor: pointer;
+}
+.title__section div{
+    display: flex;
+    gap: 5px;
+}
+.singListBtn button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 8px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.singListBtn button:hover{
+    background-color: rgb(222, 221, 221);
+}
+.collect__card{
+    margin: .5rem 0;
+    min-height: .8rem;
+}
+
+textarea{
+    outline: none;
+    width: 100%;
+    max-height: 6rem;
+    min-height: 3rem;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 5px;
+    resize: vertical;
+    border-radius: .5rem;
+}
+
+.addCard__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+.addCard__section svg{
+    cursor: pointer;
+}
+.addCard__section div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.addCard__section div svg{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.addCard__section div button{
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.SingleCardItem__list{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    background-color: white;
+    box-shadow: 0 0 2px 1px rgb(222, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SingleCardItem__list .gap{
+    display: flex;
+    gap: 5px;
+}
+.SingleCardItem__list a{
+    color: #213547;
+    text-decoration: none;
+}
+.SingleCardItem__list:hover, .SingleCardItem__list input:hover{
+    background-color: rgb(240, 239, 239);
+    cursor: pointer;
+}
+

@@ -1,0 +1,37 @@
+.singleAddList__container{
+    background-color: rgb(240, 239, 239);
+    width: 15rem;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    max-height: 6rem;
+}
+.singleAddList__container input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+}
+.singleAddList__container input:hover{
+    border: 2px solid blue;
+}
+
+.singleAddList__container .btn__container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0.5rem;
+
+}
+.singleAddList__container .btn__container button{
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+.singleAddList__container .btn__container svg{
+    font-size: 1.5rem;
+    cursor: pointer;
+}

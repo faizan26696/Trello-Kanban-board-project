@@ -1,0 +1,241 @@
+.Main_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.titleInput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titleSection input{
+    /* margin-left: 10px; */
+    height: 25px;
+    border-radius: 6px;
+    border: none;
+    /* padding: 5px; */
+    background: #e7e7e7;
+    font-size: 16px;
+}
+.titleSection h2{
+    width: 100%;
+}
+.titleLogo{
+    font-size: 34px;
+    height: 25px;
+}
+.BtnContent{
+    margin-left: 2.8rem;
+}
+.BtnContent p{
+    font-size: .8rem;
+    color: rgb(53, 53, 53);
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.EyeLog{
+    background: #e7e7e7;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 13px;
+    transition: all 1s ease;
+}
+.EyeLog p{
+    margin-top: .3rem;
+}
+.DescriptionSection, .ActivitySection{
+    margin-top: 2rem;
+}
+.desc, .ActiveHeading div{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.desc svg, .ActiveHeading div svg{
+    font-size : 1.3rem;
+    color : rgb(103, 102, 102);
+}
+
+.desc h2, .ActiveHeading div h2{
+    font-size: 20px;
+    color : rgb(77, 77, 77);
+}
+
+
+
+.DescriptionSectionContent{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    width: 29.5rem;
+    height: 3rem;
+    border-radius: .3rem;
+    background-color: #091E420F;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.DescriptionSectionContent:hover, .EyeLog:hover, .ActiveHeading button:hover{
+    background-color: #c5c5c5;
+}
+.DescriptionSectionContent p{
+    margin-top: -.5rem;
+    margin-left: .5rem;
+    color:  #44546F;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 10px;
+}
+.comment{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    width: 29.5rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 1s ease;
+    padding: 10px;
+    box-shadow: 0 0 2px 1px rgb(234, 233, 233);
+}
+.comment:hover{
+    box-shadow: 0 0 3px 2px rgb(188, 188, 188);
+
+}
+.comment p{
+    color:  #44546F;
+    font-size: 14px;
+}
+
+
+.ActiveHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 7rem;
+    margin-bottom: 0.5rem;
+    width: 31.8rem;
+}
+.ActiveHeading button{
+    background: #e4e6ea;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #44546F;
+    cursor: pointer;
+    width: 7rem;
+}
+
+.ActComments input{
+    margin-left: 10px;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0px 1px rgb(220, 219, 219);
+}
+.ShowComments{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.UserLogo{
+    font-size: 35px;
+    padding: 5px;
+}
+.MapComment{
+    display: flex;
+    align-items: center;
+}
+.CommentDate{
+    color: blue;
+    font-size: 14px;
+}
+.Editor, .commentsWrite{
+    margin-left: 2.5rem;
+    margin-top: .5rem;
+    width: 29.5rem;
+}
+.Editor > div:first-child, .commentsWrite > div:first-child{
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.commentsWrite > div:first-child>div:last-child{
+    height: 5rem;
+    padding: .5rem;
+}
+.Editor > div:first-child >div:last-child{
+    height: 15rem;
+    padding: .5rem;
+}
+.btn__container{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+.btn__container button, .editBtn{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: all 1s ease;
+}
+.btn__container button:first-child, .save{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 7px 12px;
+}
+.save{
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.btn__container button:last-child:hover, .editBtn{
+    border-radius: 5px;
+    background-color: #cfd0d3;
+}
+.content{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+
+
+.Activity__Container{
+    margin-top: 2rem;
+}
+.Activity__wrapper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.info small{
+    color: rgb(84, 83, 83);
+}
+
+.commentContent{
+    width: 27.5rem;
+    padding:  15px 10px;
+    margin-top: .5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}

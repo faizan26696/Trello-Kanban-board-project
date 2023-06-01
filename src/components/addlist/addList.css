@@ -1,0 +1,22 @@
+.pluse__icon__with__txt{
+    border: 1px solid white;
+    width: 14rem;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1s ease;
+    margin-top: 0.625rem;
+}
+
+.pluse__icon__with__txt:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.pluse__icon__with__txt svg{
+    color: #fff;
+    font-size: 1rem;
+}

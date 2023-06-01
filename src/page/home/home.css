@@ -1,0 +1,20 @@
+.Home__container {
+  padding: 1rem 2rem;
+  display: flex;
+
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg");
+  height: 92vh;
+  background-size: cover;
+}
+
+.task__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.maindiv {
+  width: 100%;
+  height: 100%;
+}

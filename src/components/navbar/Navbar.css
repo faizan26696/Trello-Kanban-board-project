@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg');
+  padding: 10px;
+  gap: 10px;
+  height: 60px;
+  font-size: 25px;
+  padding-left: 20px;
+
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar__icon {
+  margin-right: 5px;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__item {
+  margin-right: 10px;
+}
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+}
